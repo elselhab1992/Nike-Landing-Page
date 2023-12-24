@@ -5,7 +5,6 @@ const Header = styled.header`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 18rem;
   padding: 1rem;
   height: 70px;
   position: fixed;

@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: poppins,sans-serif;
         width: 100%;
         min-height: 100vh;
+        padding-top: 70px;
         text-transform: capitalize;
     }
 
