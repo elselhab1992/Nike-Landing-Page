@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
-import { SideBar, MobileLink, Button } from "./SidebarStyles";
-import { IoMdCart } from "react-icons/io";
+import { SideBar, MobileLink, SignInLink } from "./SidebarStyles";
 
 const Sidebar = ({ click, closeMenu }) => {
   return (
@@ -20,26 +19,26 @@ const Sidebar = ({ click, closeMenu }) => {
         </li>
         <li>
           <MobileLink
-            to="specials"
+            to="about"
             spy={true}
             smooth={true}
             offset={-50}
             duration={500}
             onClick={closeMenu}
           >
-            Specials
+            About Us
           </MobileLink>
         </li>
         <li>
           <MobileLink
-            to="menu"
+            to="products"
             spy={true}
             smooth={true}
             offset={-50}
             duration={500}
             onClick={closeMenu}
           >
-            Menu
+            Products
           </MobileLink>
         </li>
         <li>
@@ -51,24 +50,23 @@ const Sidebar = ({ click, closeMenu }) => {
             duration={500}
             onClick={closeMenu}
           >
-            Contact
+            Contact Us
           </MobileLink>
         </li>
         <li>
           <MobileLink
-            to="menu"
+            to="home"
             spy={true}
             smooth={true}
             offset={-50}
             duration={500}
             onClick={closeMenu}
           >
-            <Button>
-              Order
-              <span>
-                <IoMdCart size={20} />
-              </span>
-            </Button>
+            <SignInLink onClick={closeMenu}>
+              <div>Sign In</div>
+              <div>/</div>
+              <div>Explore Now</div>
+            </SignInLink>
           </MobileLink>
         </li>
       </SideBar>

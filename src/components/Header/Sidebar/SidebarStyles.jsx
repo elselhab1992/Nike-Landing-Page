@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import PrimaryButtons from "../../Button/ButtonStyles";
 import { Link } from "react-scroll";
+import { SignIn } from "../Navbar/NavbarStyles";
 
 const SideBar = styled.ul`
   position: fixed;
@@ -26,15 +26,17 @@ const SideBar = styled.ul`
 const MobileLink = styled(Link)`
   color: ${(props) => props.theme.colors.secondary};
   font-size: ${(props) => props.theme.fontSize.medium};
-  font-weight: ${(props) => props.theme.fontWeight.SemiBold};
+  font-weight: ${(props) => props.theme.fontWeight.medium};
 
   &:hover {
     cursor: pointer;
   }
 `;
 
-const Button = styled(PrimaryButtons)`
-  padding: 8px;
+const SignInLink = styled(SignIn)`
+  @media (max-width: 1024px) {
+    display: flex;
+  }
 `;
 
-export { SideBar, MobileLink, Button };
+export { SideBar, MobileLink, SignInLink };

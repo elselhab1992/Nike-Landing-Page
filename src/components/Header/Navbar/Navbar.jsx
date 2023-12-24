@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../../assets/food-logo.png";
+import logo from "../../../assets/images/header-logo.svg";
 import {
   Header,
   LogoContainer,
@@ -9,16 +9,15 @@ import {
   NavIcons,
   NavLinks,
   NavLink,
-  Button,
+  SignIn,
+  SignInAndExplore,
 } from "./NavbarStyles";
-import { IoMdCart } from "react-icons/io";
 
 function Navbar({ click, handleClick }) {
   return (
     <Header>
       <LogoContainer>
         <Logo src={logo} alt="logo" />
-        <span>Foodie</span>
       </LogoContainer>
 
       <Container>
@@ -37,24 +36,24 @@ function Navbar({ click, handleClick }) {
             </li>
             <li>
               <NavLink
-                to="specials"
+                to="about"
                 spy={true}
                 smooth={true}
                 offset={-50}
                 duration={500}
               >
-                Specials
+                About Us
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="menu"
+                to="products"
                 spy={true}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
-                Menu
+                Products
               </NavLink>
             </li>
             <li>
@@ -65,28 +64,17 @@ function Navbar({ click, handleClick }) {
                 offset={50}
                 duration={500}
               >
-                Contact
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="menu"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                <Button>
-                  Order
-                  <span>
-                    <IoMdCart size={20} />
-                  </span>
-                </Button>
+                Contact Us
               </NavLink>
             </li>
           </NavLinks>
         </nav>
       </Container>
+      <SignIn>
+        <SignInAndExplore>Sign In</SignInAndExplore>
+        <div>/</div>
+        <SignInAndExplore>Explore Now</SignInAndExplore>
+      </SignIn>
       <NavIcons onClick={handleClick}>
         {click ? (
           <FaTimes size={30} style={{ color: "#000", cursor: "pointer" }} />

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import PrimaryButtons from "../../Button/ButtonStyles";
 import { Link } from "react-scroll";
 
 const Header = styled.header`
@@ -46,7 +45,7 @@ const LogoContainer = styled.div`
 `;
 
 const Logo = styled.img`
-  width: 40px;
+  width: 120px;
 `;
 
 const NavLinks = styled.ul`
@@ -63,7 +62,7 @@ const NavLinks = styled.ul`
 const NavLink = styled(Link)`
   color: ${(props) => props.theme.colors.primary};
   font-size: ${(props) => props.theme.fontSize.small};
-  font-weight: ${(props) => props.theme.fontWeight.Regular};
+  font-weight: ${(props) => props.theme.fontWeight.medium};
   transition: 700ms;
 
   &:hover {
@@ -72,8 +71,27 @@ const NavLink = styled(Link)`
   }
 `;
 
-const Button = styled(PrimaryButtons)`
-  padding: 8px;
+const SignIn = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+`;
+
+const SignInAndExplore = styled.div`
+  color: ${(props) => props.theme.colors.primary};
+  font-size: ${(props) => props.theme.fontSize.small};
+  font-weight: ${(props) => props.theme.fontWeight.Regular};
+  transition: 700ms;
+
+  &:hover {
+    color: ${(props) => props.theme.colors.secondary};
+    cursor: pointer;
+  }
 `;
 
 export {
@@ -84,5 +102,6 @@ export {
   NavIcons,
   NavLinks,
   NavLink,
-  Button,
+  SignIn,
+  SignInAndExplore,
 };
