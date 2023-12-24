@@ -19,8 +19,12 @@ const Container = styled.div`
 `;
 
 const Heading = styled.h2`
-  font-size: ${(props) => props.theme.fontSize.medium};
+  font-size: ${(props) => props.theme.fontSize.large};
   color: ${(props) => props.theme.colors.secondary};
+
+  @media (min-width: 300px) {
+    line-height: 1.2;
+  }
 `;
 
 const Info = styled.p`
