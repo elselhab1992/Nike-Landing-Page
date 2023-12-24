@@ -23,7 +23,7 @@ const Hero = () => {
   const [mainImage, setMainImage] = useState(shoes[0]);
 
   return (
-    <Section>
+    <Section id="home">
       {/* left */}
       <LeftContainer>
         <TopText>our summer collections</TopText>

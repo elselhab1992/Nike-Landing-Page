@@ -113,7 +113,7 @@ const StatisticsHeading = styled.h3`
 `;
 
 const RightContainer = styled.div`
-  background-image: url(${img});
+  background: url(${img});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
