@@ -7,8 +7,6 @@ const Section = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  justify-content: center;
-  align-items: center;
   gap: 1rem;
   padding: 5rem;
   margin: auto;

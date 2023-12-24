@@ -7,6 +7,7 @@ import Popular from "./Popular/Popular";
 import Headings from "./Headings/Headings";
 import SuperQuality from "./SuperQuality/SuperQuality";
 import Services from "./Services/Services";
+import SpecialOffer from "./SpecialOffer/SpecialOffer";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Headings,
   SuperQuality,
   Services,
+  SpecialOffer,
 };

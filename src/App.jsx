@@ -1,6 +1,13 @@
 import GlobalStyles from "./GlobalStyles";
 import Theme from "./Theme";
-import { Header, Hero, Popular, SuperQuality, Services } from "./components";
+import {
+  Header,
+  Hero,
+  Popular,
+  SuperQuality,
+  Services,
+  SpecialOffer,
+} from "./components";
 
 function App() {
   return (
@@ -11,6 +18,7 @@ function App() {
       <Popular />
       <SuperQuality />
       <Services />
+      <SpecialOffer />
     </Theme>
   );
 }

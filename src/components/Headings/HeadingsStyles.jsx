@@ -35,7 +35,11 @@ const Info = styled.p`
   }
 
   @media (min-width: 1024px) {
-    width: 55%;
+    width: 100%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 70%;
   }
 `;
 
