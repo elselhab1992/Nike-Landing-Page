@@ -1,6 +1,6 @@
 import GlobalStyles from "./GlobalStyles";
 import Theme from "./Theme";
-import { Header, Hero } from "./components";
+import { Header, Hero, Popular } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <GlobalStyles />
       <Header />
       <Hero />
+      <Popular />
     </Theme>
   );
 }

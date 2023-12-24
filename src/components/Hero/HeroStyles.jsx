@@ -62,10 +62,6 @@ const Heading = styled.h1`
   }
 `;
 
-const Span = styled.span`
-  color: ${(props) => props.theme.colors.secondary};
-`;
-
 const MainText = styled.p`
   width: 70%;
 
@@ -113,7 +109,7 @@ const StatisticsHeading = styled.h3`
 `;
 
 const RightContainer = styled.div`
-  background: url(${img});
+  background-image: url(${img});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -177,7 +173,6 @@ export {
   LeftContainer,
   TopText,
   Heading,
-  Span,
   MainText,
   Icon,
   Statistics,

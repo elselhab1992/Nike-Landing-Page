@@ -6,7 +6,6 @@ import {
   LeftContainer,
   TopText,
   Heading,
-  Span,
   MainText,
   Icon,
   RightContainer,
@@ -29,7 +28,7 @@ const Hero = () => {
         <TopText>our summer collections</TopText>
         <Heading>
           The new arrival
-          <br /> <Span>nike</Span> shoes
+          <br /> <span>nike</span> shoes
         </Heading>
         <MainText>
           discover stylish nike arrivals, quality, comfort, and innovation for

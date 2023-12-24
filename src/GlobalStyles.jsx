@@ -23,6 +23,10 @@ const GlobalStyles = createGlobalStyle`
     ul {
         list-style: none;
     }
+
+    span {
+        color: ${(props) => props.theme.colors.secondary};
+    }
 `;
 
 export default GlobalStyles;
