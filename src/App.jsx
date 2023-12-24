@@ -7,6 +7,7 @@ import {
   SuperQuality,
   Services,
   SpecialOffer,
+  Customer,
 } from "./components";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <SuperQuality />
       <Services />
       <SpecialOffer />
+      <Customer />
     </Theme>
   );
 }

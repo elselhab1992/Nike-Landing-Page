@@ -8,6 +8,7 @@ import Headings from "./Headings/Headings";
 import SuperQuality from "./SuperQuality/SuperQuality";
 import Services from "./Services/Services";
 import SpecialOffer from "./SpecialOffer/SpecialOffer";
+import Customer from "./Customer/Customer";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   SuperQuality,
   Services,
   SpecialOffer,
+  Customer,
 };
