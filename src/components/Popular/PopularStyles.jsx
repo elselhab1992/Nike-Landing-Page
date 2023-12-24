@@ -13,7 +13,7 @@ const Section = styled.section`
 
   @media (min-width: 300px) {
     width: 100%;
-    padding: 10px;
+    padding: 20px 10px;
   }
 
   @media (min-width: 1200px) {

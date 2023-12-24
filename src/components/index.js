@@ -9,6 +9,7 @@ import SuperQuality from "./SuperQuality/SuperQuality";
 import Services from "./Services/Services";
 import SpecialOffer from "./SpecialOffer/SpecialOffer";
 import Customer from "./Customer/Customer";
+import Subscribe from "./Subscribe/Subscribe";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Services,
   SpecialOffer,
   Customer,
+  Subscribe,
 };

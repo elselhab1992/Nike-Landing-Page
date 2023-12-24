@@ -10,7 +10,7 @@ const Section = styled.section`
   padding: 0 8rem;
 
   @media (min-width: 300px) {
-    padding: 10px;
+    padding: 20px 10px;
     flex-direction: column-reverse;
   }
 
