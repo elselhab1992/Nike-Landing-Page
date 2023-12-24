@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
         width: 100%;
         min-height: 100vh;
         padding-top: 70px;
+        background-color: ${(props) => props.theme.colors.body};
         text-transform: capitalize;
     }
 
