@@ -19,14 +19,14 @@ const Sidebar = ({ click, closeMenu }) => {
         </li>
         <li>
           <MobileLink
-            to="about"
+            to="offers"
             spy={true}
             smooth={true}
             offset={-50}
             duration={500}
             onClick={closeMenu}
           >
-            About Us
+            Offers
           </MobileLink>
         </li>
         <li>

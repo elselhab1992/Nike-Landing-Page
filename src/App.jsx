@@ -9,6 +9,7 @@ import {
   SpecialOffer,
   Customer,
   Subscribe,
+  Footer,
 } from "./components";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <SpecialOffer />
       <Customer />
       <Subscribe />
+      <Footer />
     </Theme>
   );
 }

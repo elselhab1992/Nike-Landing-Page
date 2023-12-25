@@ -10,6 +10,7 @@ import Services from "./Services/Services";
 import SpecialOffer from "./SpecialOffer/SpecialOffer";
 import Customer from "./Customer/Customer";
 import Subscribe from "./Subscribe/Subscribe";
+import Footer from "./Footer/Footer";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   SpecialOffer,
   Customer,
   Subscribe,
+  Footer,
 };

@@ -36,13 +36,13 @@ function Navbar({ click, handleClick }) {
             </li>
             <li>
               <NavLink
-                to="about"
+                to="offers"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-100}
                 duration={500}
               >
-                About Us
+                Offers
               </NavLink>
             </li>
             <li>
@@ -50,7 +50,7 @@ function Navbar({ click, handleClick }) {
                 to="products"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-100}
                 duration={500}
               >
                 Products

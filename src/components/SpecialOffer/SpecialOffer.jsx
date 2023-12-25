@@ -10,7 +10,7 @@ import {
 
 const SpecialOffer = () => {
   return (
-    <Section>
+    <Section id="offers">
       {/* left */}
       <ImgContainer>
         <Img src={offer} alt="offers" />

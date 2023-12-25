@@ -12,7 +12,7 @@ import {
 
 const Popular = () => {
   return (
-    <Section>
+    <Section id="products">
       <TopTitle>
         <Headings
           title="our popular products"
